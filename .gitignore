@@ -1,0 +1,184 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script run on a developer's machine
+#  to create a standalone executable.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.fullname
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to share your .python-version.
+#   For an app, this should be ignored.
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if delegates have different OS, it could cause dependency issues.
+#   Pipfile.lock
+
+# poetry
+#   According to poetry documentation, poetry.lock file should be committed to version control.
+#   poetry.lock
+
+# pdm
+#   According to pdm documentation, pdm.lock file should be committed to version control.
+#   pdm.lock
+
+# PEP 582; project local packages directory (used by pdm)
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyder-py3
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Python Database & logs
+encrypted_messages.db
+encrypted_messages.db-journal
+logs/
+*.log
+
+# Flutter/Dart specific ignores
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbol lookup licenses
+/caesar_cipher_mobile/bin/
+/caesar_cipher_mobile/.dart_tool/
+/caesar_cipher_mobile/.flutter-plugins
+/caesar_cipher_mobile/.flutter-plugins-dependencies
+/caesar_cipher_mobile/.packages
+/caesar_cipher_mobile/.pub-cache/
+/caesar_cipher_mobile/.pub/
+/caesar_cipher_mobile/build/
+/caesar_cipher_mobile/android/local.properties
+/caesar_cipher_mobile/ios/.symlinks/
+/caesar_cipher_mobile/ios/Flutter/Debug.xcconfig
+/caesar_cipher_mobile/ios/Flutter/Release.xcconfig
+/caesar_cipher_mobile/ios/Flutter/Generated.xcconfig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
