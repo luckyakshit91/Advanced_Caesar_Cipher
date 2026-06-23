@@ -1,6 +1,6 @@
 # Advanced Caesar Cipher Security Suite
 
-A multi-platform cryptography education and utility suite featuring a **Python Tkinter Desktop Application** and a **Flutter Mobile App**. This toolkit provides tools for text encryption, decryption, brute-force simulation, frequency analysis, and AES comparisons.
+A cryptography education and utility suite featuring a **Python Tkinter Desktop Application**. This toolkit provides tools for text encryption, decryption, brute-force simulation, frequency analysis, and AES comparisons.
 
 ---
 
@@ -15,11 +15,6 @@ A multi-platform cryptography education and utility suite featuring a **Python T
 *   **Text File Encryption:** Load external `.txt` files directly, encrypt them, and save the output.
 *   **Database Integration:** Saves all original and encrypted texts to a local SQLite database (`encrypted_messages.db`) for tracking.
 *   **Detailed Logging:** Automated logging system writing system actions and events to `logs/encryption.log`.
-
-### 📱 Flutter Mobile App (`caesar_cipher_mobile`)
-*   **Cross-Platform Client:** Run on Android or iOS.
-*   **Modern UI:** Dark-themed styling utilizing Google Fonts (Inter) and vibrant neon accents matching the desktop application's cyberpunk aesthetic.
-*   **Authentication & Workspace Screens:** Mobile workflow mimicking the desktop logic.
 
 ---
 
@@ -36,14 +31,7 @@ Advanced_Caesar_Cipher tool/
 ├── logger_module.py          # Logging configuration (logs/encryption.log)
 ├── main.py                   # Python Tkinter GUI launcher and desktop app logic
 ├── password_auth.py          # Plaintext credential checking
-├── requirements.txt          # Python dependencies
-│
-└── caesar_cipher_mobile/     # Flutter mobile application
-    ├── lib/                  # Dart application source files
-    │   ├── main.dart         # Flutter entry point
-    │   ├── screens/          # UI Screens (AuthScreen, HomeScreen)
-    │   └── helpers/ / utils/ # Mobile utility helpers
-    └── pubspec.yaml          # Flutter dependency configuration
+└── requirements.txt          # Python dependencies
 ```
 
 ---
@@ -82,30 +70,6 @@ Advanced_Caesar_Cipher tool/
     python main.py
     ```
     *Note: You will be prompted in the terminal to enter the password (`Akshit@123`) before the GUI window launches.*
-
----
-
-## 📱 Getting Started: Flutter Mobile App
-
-### Prerequisites
-*   [Flutter SDK](https://docs.flutter.dev/get-started/install) installed and configured on your machine.
-*   An Android/iOS simulator or physical device connected.
-
-### Installation
-1.  Navigate to the mobile directory:
-    ```bash
-    cd caesar_cipher_mobile
-    ```
-
-2.  Fetch packages:
-    ```bash
-    flutter pub get
-    ```
-
-3.  Run the application:
-    ```bash
-    flutter run
-    ```
 
 ---
 
